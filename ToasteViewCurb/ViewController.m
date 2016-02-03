@@ -18,8 +18,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [self.view makeToastView:@"hellow world"];
     
+    
+}
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self.view makeToastView:@"hellow world"];
 }
 
 - (void)didReceiveMemoryWarning {

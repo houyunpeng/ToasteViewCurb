@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF809CFA1C61DFA9009E87E5 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF809CF91C61DFA9009E87E5 /* BaseTabBarController.m */; };
+		EF809CFD1C61DFFA009E87E5 /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF809CFC1C61DFFA009E87E5 /* FirstVC.m */; };
+		EF809D001C61E002009E87E5 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF809CFF1C61E002009E87E5 /* SecondVC.m */; };
+		EF809D031C61E00B009E87E5 /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF809D021C61E00B009E87E5 /* ThirdVC.m */; };
+		EF809D061C61E016009E87E5 /* ForthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF809D051C61E016009E87E5 /* ForthVC.m */; };
 		EFC04FB01C604DF700E0BB27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC04FAF1C604DF700E0BB27 /* main.m */; };
 		EFC04FB31C604DF700E0BB27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC04FB21C604DF700E0BB27 /* AppDelegate.m */; };
 		EFC04FB61C604DF700E0BB27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC04FB51C604DF700E0BB27 /* ViewController.m */; };
@@ -36,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF809CF81C61DFA9009E87E5 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		EF809CF91C61DFA9009E87E5 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		EF809CFB1C61DFFA009E87E5 /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		EF809CFC1C61DFFA009E87E5 /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		EF809CFE1C61E002009E87E5 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		EF809CFF1C61E002009E87E5 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		EF809D011C61E00B009E87E5 /* ThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdVC.h; sourceTree = "<group>"; };
+		EF809D021C61E00B009E87E5 /* ThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
+		EF809D041C61E016009E87E5 /* ForthVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthVC.h; sourceTree = "<group>"; };
+		EF809D051C61E016009E87E5 /* ForthVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthVC.m; sourceTree = "<group>"; };
 		EFC04FAB1C604DF700E0BB27 /* ToasteViewCurb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToasteViewCurb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC04FAF1C604DF700E0BB27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFC04FB11C604DF700E0BB27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +123,16 @@
 				EFC04FB21C604DF700E0BB27 /* AppDelegate.m */,
 				EFC04FB41C604DF700E0BB27 /* ViewController.h */,
 				EFC04FB51C604DF700E0BB27 /* ViewController.m */,
+				EF809CF81C61DFA9009E87E5 /* BaseTabBarController.h */,
+				EF809CF91C61DFA9009E87E5 /* BaseTabBarController.m */,
+				EF809CFB1C61DFFA009E87E5 /* FirstVC.h */,
+				EF809CFC1C61DFFA009E87E5 /* FirstVC.m */,
+				EF809CFE1C61E002009E87E5 /* SecondVC.h */,
+				EF809CFF1C61E002009E87E5 /* SecondVC.m */,
+				EF809D011C61E00B009E87E5 /* ThirdVC.h */,
+				EF809D021C61E00B009E87E5 /* ThirdVC.m */,
+				EF809D041C61E016009E87E5 /* ForthVC.h */,
+				EF809D051C61E016009E87E5 /* ForthVC.m */,
 				EFC04FE11C604E2400E0BB27 /* UIView+ToasteCurbView.h */,
 				EFC04FE21C604E2500E0BB27 /* UIView+ToasteCurbView.m */,
 				EFC04FB71C604DF700E0BB27 /* Main.storyboard */,
@@ -275,8 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF809D031C61E00B009E87E5 /* ThirdVC.m in Sources */,
+				EF809D061C61E016009E87E5 /* ForthVC.m in Sources */,
+				EF809CFA1C61DFA9009E87E5 /* BaseTabBarController.m in Sources */,
+				EF809CFD1C61DFFA009E87E5 /* FirstVC.m in Sources */,
 				EFC04FB61C604DF700E0BB27 /* ViewController.m in Sources */,
 				EFC04FE31C604E2500E0BB27 /* UIView+ToasteCurbView.m in Sources */,
+				EF809D001C61E002009E87E5 /* SecondVC.m in Sources */,
 				EFC04FB31C604DF700E0BB27 /* AppDelegate.m in Sources */,
 				EFC04FB01C604DF700E0BB27 /* main.m in Sources */,
 			);
@@ -423,6 +453,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hyp.ToasteViewCurb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -434,6 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hyp.ToasteViewCurb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -504,6 +536,7 @@
 				EFC04FDA1C604DF800E0BB27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFC04FDB1C604DF800E0BB27 /* Build configuration list for PBXNativeTarget "ToasteViewCurbTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +545,7 @@
 				EFC04FDD1C604DF800E0BB27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFC04FDE1C604DF800E0BB27 /* Build configuration list for PBXNativeTarget "ToasteViewCurbUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +554,7 @@
 				EFC04FE01C604DF800E0BB27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
