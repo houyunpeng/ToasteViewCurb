@@ -20,7 +20,7 @@
 		EFC04FBE1C604DF700E0BB27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC04FBC1C604DF700E0BB27 /* LaunchScreen.storyboard */; };
 		EFC04FC91C604DF800E0BB27 /* ToasteViewCurbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC04FC81C604DF800E0BB27 /* ToasteViewCurbTests.m */; };
 		EFC04FD41C604DF800E0BB27 /* ToasteViewCurbUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC04FD31C604DF800E0BB27 /* ToasteViewCurbUITests.m */; };
-		EFC04FE31C604E2500E0BB27 /* UIView+ToasteCurbView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC04FE21C604E2500E0BB27 /* UIView+ToasteCurbView.m */; };
+		EFE01F371C9BB41100176DB8 /* UIView+ToasteCurbView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE01F361C9BB41100176DB8 /* UIView+ToasteCurbView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +67,8 @@
 		EFC04FCF1C604DF800E0BB27 /* ToasteViewCurbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToasteViewCurbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC04FD31C604DF800E0BB27 /* ToasteViewCurbUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToasteViewCurbUITests.m; sourceTree = "<group>"; };
 		EFC04FD51C604DF800E0BB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFC04FE11C604E2400E0BB27 /* UIView+ToasteCurbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ToasteCurbView.h"; sourceTree = "<group>"; };
-		EFC04FE21C604E2500E0BB27 /* UIView+ToasteCurbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ToasteCurbView.m"; sourceTree = "<group>"; };
+		EFE01F351C9BB41100176DB8 /* UIView+ToasteCurbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ToasteCurbView.h"; sourceTree = "<group>"; };
+		EFE01F361C9BB41100176DB8 /* UIView+ToasteCurbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ToasteCurbView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +99,7 @@
 		EFC04FA21C604DF700E0BB27 = {
 			isa = PBXGroup;
 			children = (
+				EFE01F341C9BB41100176DB8 /* ToasteView */,
 				EFC04FAD1C604DF700E0BB27 /* ToasteViewCurb */,
 				EFC04FC71C604DF800E0BB27 /* ToasteViewCurbTests */,
 				EFC04FD21C604DF800E0BB27 /* ToasteViewCurbUITests */,
@@ -133,8 +134,6 @@
 				EF809D021C61E00B009E87E5 /* ThirdVC.m */,
 				EF809D041C61E016009E87E5 /* ForthVC.h */,
 				EF809D051C61E016009E87E5 /* ForthVC.m */,
-				EFC04FE11C604E2400E0BB27 /* UIView+ToasteCurbView.h */,
-				EFC04FE21C604E2500E0BB27 /* UIView+ToasteCurbView.m */,
 				EFC04FB71C604DF700E0BB27 /* Main.storyboard */,
 				EFC04FBA1C604DF700E0BB27 /* Assets.xcassets */,
 				EFC04FBC1C604DF700E0BB27 /* LaunchScreen.storyboard */,
@@ -168,6 +167,15 @@
 				EFC04FD51C604DF800E0BB27 /* Info.plist */,
 			);
 			path = ToasteViewCurbUITests;
+			sourceTree = "<group>";
+		};
+		EFE01F341C9BB41100176DB8 /* ToasteView */ = {
+			isa = PBXGroup;
+			children = (
+				EFE01F351C9BB41100176DB8 /* UIView+ToasteCurbView.h */,
+				EFE01F361C9BB41100176DB8 /* UIView+ToasteCurbView.m */,
+			);
+			path = ToasteView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,11 +309,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF809D031C61E00B009E87E5 /* ThirdVC.m in Sources */,
+				EFE01F371C9BB41100176DB8 /* UIView+ToasteCurbView.m in Sources */,
 				EF809D061C61E016009E87E5 /* ForthVC.m in Sources */,
 				EF809CFA1C61DFA9009E87E5 /* BaseTabBarController.m in Sources */,
 				EF809CFD1C61DFFA009E87E5 /* FirstVC.m in Sources */,
 				EFC04FB61C604DF700E0BB27 /* ViewController.m in Sources */,
-				EFC04FE31C604E2500E0BB27 /* UIView+ToasteCurbView.m in Sources */,
 				EF809D001C61E002009E87E5 /* SecondVC.m in Sources */,
 				EFC04FB31C604DF700E0BB27 /* AppDelegate.m in Sources */,
 				EFC04FB01C604DF700E0BB27 /* main.m in Sources */,
