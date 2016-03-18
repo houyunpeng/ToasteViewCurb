@@ -21,6 +21,7 @@
 		EFC04FC91C604DF800E0BB27 /* ToasteViewCurbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC04FC81C604DF800E0BB27 /* ToasteViewCurbTests.m */; };
 		EFC04FD41C604DF800E0BB27 /* ToasteViewCurbUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC04FD31C604DF800E0BB27 /* ToasteViewCurbUITests.m */; };
 		EFE01F371C9BB41100176DB8 /* UIView+ToasteCurbView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE01F361C9BB41100176DB8 /* UIView+ToasteCurbView.m */; };
+		EFE01F391C9BB46800176DB8 /* ToasteViewCurb.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EFE01F381C9BB46800176DB8 /* ToasteViewCurb.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		EFC04FD51C604DF800E0BB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFE01F351C9BB41100176DB8 /* UIView+ToasteCurbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ToasteCurbView.h"; sourceTree = "<group>"; };
 		EFE01F361C9BB41100176DB8 /* UIView+ToasteCurbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ToasteCurbView.m"; sourceTree = "<group>"; };
+		EFE01F381C9BB46800176DB8 /* ToasteViewCurb.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ToasteViewCurb.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		EFC04FA21C604DF700E0BB27 = {
 			isa = PBXGroup;
 			children = (
+				EFE01F381C9BB46800176DB8 /* ToasteViewCurb.podspec */,
 				EFE01F341C9BB41100176DB8 /* ToasteView */,
 				EFC04FAD1C604DF700E0BB27 /* ToasteViewCurb */,
 				EFC04FC71C604DF800E0BB27 /* ToasteViewCurbTests */,
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC04FBE1C604DF700E0BB27 /* LaunchScreen.storyboard in Resources */,
+				EFE01F391C9BB46800176DB8 /* ToasteViewCurb.podspec in Resources */,
 				EFC04FBB1C604DF700E0BB27 /* Assets.xcassets in Resources */,
 				EFC04FB91C604DF700E0BB27 /* Main.storyboard in Resources */,
 			);
