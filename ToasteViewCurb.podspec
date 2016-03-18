@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   
 
-  s.source_files  = "ToasteCurbView1/", "ToasteCurbView1/*.{h,m}"
+  s.source_files  = "ToasteCurbView/", "ToasteCurbView/ToasteCurbView1/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   
