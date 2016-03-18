@@ -1,3 +1,10 @@
+#install by cocoapods
+	ADD  pod 'ToasteCurbView', :git => 'git@github.com:houyunpeng/ToasteViewCurb.git'  to your Podfile,
+	then,pod install.
+
+
+
+
 ##usage
 
  toast has 6 animationTypes: 
