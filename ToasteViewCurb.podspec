@@ -23,7 +23,7 @@ target = "10.7"
 
   
 
-  s.source_files  = "UIView+ToasteCurbView", "UIView+ToasteCurbView.{h,m}"
+  s.source_files  = "ToasteCurbView/", "ToasteCurbView/UIView+ToasteCurbView.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   
