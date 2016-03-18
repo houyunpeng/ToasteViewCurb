@@ -15,7 +15,8 @@ Pod::Spec.new do |s|
   s.license      = "MIT (example)"
  
   s.author             = { "houyunpeng" => "1600892327@qq.com" }
-target = "10.7"
+  s.osx.deployment_target = "10.7"
+   s.ios.deployment_target = "6.0"
  
 
   s.source       = { :git => "https://github.com/houyunpeng/ToasteViewCurb.git", :tag => "0.0.1" }
