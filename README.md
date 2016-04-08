@@ -31,9 +31,8 @@
  
 ##效果图
 
-![](/Users/houyunpeng/Desktop/Simulator Screen Shot 2016年2月3日 下午5.24.09.png)
-![](/Users/houyunpeng/Desktop/Simulator Screen Shot 2016年2月3日 下午5.24.05.png)
-![](/Users/houyunpeng/Desktop/Simulator Screen Shot 2016年2月3日 下午5.23.57.png)
+
+![](http://7xqxbl.com1.z0.glb.clouddn.com/luping%E5%BD%95%E5%B1%8F.gif)
 
  
 ### .h header file
