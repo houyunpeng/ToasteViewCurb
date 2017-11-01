@@ -31,7 +31,7 @@ typedef NS_ENUM(NSUInteger, AnimationType) {
 
     
 };
-@interface UIView (ToasteCurbView)
+@interface UIView (ToasteCurbView)<CAAnimationDelegate>
 -(void)makeToastView:(NSString*)title;
 
 -(void)makeToastView:(NSString*)title offsetHeight:(CGFloat)offsetHeight;
