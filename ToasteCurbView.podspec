@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:houyunpeng/ToasteViewCurb.git", :tag => "0.0.1" }
+  s.source       = { :git => "git@github.com:houyunpeng/ToasteViewCurb.git", :commit=>'634e258d6ba38e412d5bd20076b4b344e959a796'}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
